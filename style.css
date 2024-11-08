@@ -130,12 +130,12 @@ main {
     font-size: var(--medium);
     box-shadow: var(--shadow-card);
 }
-.book-card #remove {
+.book-card .remove {
     font-size: var(--medium);
     font-weight: 600;
     color: purple;
 }
-.book-card #read-data {
+.book-card .read-data {
     width: 100%;
     padding: var(--small);
     border-radius: var(--border-radius);
