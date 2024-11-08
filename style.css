@@ -137,8 +137,19 @@ main {
 }
 .book-card .read-data {
     width: 100%;
+    font-size: var(--medium);
     padding: var(--small);
     border-radius: var(--border-radius);
     background-color: var(--button-color);
     cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
