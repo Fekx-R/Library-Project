@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <h1>Library</h1>
+        </div>
+    </header>
+
+    <main>
+        <button id="add-book-btn">Add Book +</button>
+        <div id="book-grid">
+            <div class="book-card">
+                <p id="title-data">Game of Thrones</p>
+                <p id="author-data">GRRM</p>
+                <p id="pages-data">250 pages</p>
+                <p id="read-data">Have read</p>
+                <button id="remove">Remove</button>
+            </div>
+            <div class="book-card">asdsjb</div>
+            <div class="book-card">asdsjb</div>
+        </div>
+    </main>
+
+    <div id="book-form-container">
+        <form id="book-form">
+            <h2>New Book</h2>
+            
+            <input type="text" placeholder="Title" id="title" required maxlength="100">
+            <input type="text" placeholder="Author" id="author" required maxlength="100">
+            <input type="number" placeholder="Pages" id="pages" required maxlength="10000">
+            
+            <div class="read">
+                <label for="isRead">Have you read it?</label>
+                <input type="checkbox" class="checkbox" id="isRead" />
+            </div>
+
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
