@@ -1,6 +1,6 @@
 const addBookBtn = document.getElementById('add-book-btn');
-const bookFormContainer = document.getElementById('book-form-container');
 const bookGrid = document.getElementById('book-grid');
+const bookFormContainer = document.getElementById('book-form-container');
 const overlay = document.querySelector('.overlay');
 
 const myLibrary = [];
@@ -72,6 +72,8 @@ function addBookToLibrary(book, index) {
 // default input when you restart the browser
 const defaultBook = new Book('Dance Of The Dragon', 'George RR Martin', 236, true)
 addBookToLibrary(defaultBook)
+const defaultBook2 = new Book('The Journey Of Fikri wkwk', 'Fekx', '365', true)
+addBookToLibrary(defaultBook2)
 
 const getBookFromInput = () => {
     const title = document.getElementById('title').value;
